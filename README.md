@@ -6,4 +6,4 @@
   4) Click on the "index.html" file to run the game (use Mozilla for full implementation of all features) 
 
 
-## Authors: Alejandro Christlieb & Lucas Serog
+#### Authors: Alejandro Christlieb & Lucas Serog
