@@ -1,0 +1,87 @@
+html, body{
+    height: 100%;
+}
+
+#box { /*Style of the box*/
+    display: block;
+    border: solid 2px black;
+    position: relative;
+    height: 80%;
+    width: 60%;
+
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#top{ /*Background for the headline*/
+    width: 100%;
+    background-color:darkred;
+    display: block;
+    position: absolute;
+    z-index: 2;
+}
+
+h1{
+    display: inline-block;
+    color:darkorange;
+    position: relative;
+    font-size: 50px;
+    margin-left: 35%;
+    margin-top: 1%;
+}
+
+h3{
+    display: inline-block;
+    color:coral;
+    position: relative;
+    margin-left: 30%;
+    margin-top: -4%;
+}
+
+#play{ /*Style of the play button*/
+    background-color: coral;
+    color: black;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 0;
+    position: absolute;
+    bottom: -3%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#rules{
+    display: block;
+    color:rgb(58, 36, 199);
+    background-color:darkturquoise;
+    position: absolute;
+    bottom: .001%;
+    margin-left: 1px;
+    font-size: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.Court {
+    position: absolute;
+    z-index: -1;
+
+    height: 100%;
+    width: 100%;
+}
+
+.Background { 
+    position:absolute;
+    z-index: 0;
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}

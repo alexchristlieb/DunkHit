@@ -1,0 +1,155 @@
+html, body{
+    height: 100%;
+}
+
+.Ball { /*Set the proper size of the ball*/
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+}
+
+.Box { /*Style of the box*/
+    display: block;
+    border: solid 2px black;
+    position: relative;
+    height: 80%;
+    width: 60%;
+
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    z-index: 1;
+}
+
+.Court {
+    position: absolute;
+    z-index: -1;
+
+    height: 100%;
+    width: 100%;
+}
+
+.Background { 
+    position:absolute;
+    z-index: 0;
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.Backboard.left{ /*Class for the backboard elements*/
+    left: 2.5%;
+    width: 1.5%;
+}
+
+.Backboard.right{ /*Class for the backboard elements*/
+    right: 2.5%;
+    width: 1.5%;
+}
+
+#bottom{ /*Bottom part of the backboard*/
+    position: absolute;
+    top: 31%;
+    height: 14%;
+    background-color: lightgray;
+}
+
+#top{  /*Top part of the backboard*/
+    position: absolute;
+    top: 25%;
+    height: 6%;
+    background-color: white;
+}
+
+.tube {   /*Tube holding the backboard*/
+    position: absolute;
+    top: 39%;
+
+    height: 2%;
+    width: 2.5%;
+    background-color: darkred;
+}
+
+.tube.left {   /*Tube on the left of the screen*/
+    left: 0%;
+}
+
+.tube.right {   /*Tube on the right of the screen*/
+    right: 0%;
+}
+
+.rim {   /*Style of the rim*/
+    position: absolute;
+
+    top: 37.5%;
+
+    height:3%;
+    width:7%;
+    border: 6px solid darkred;
+    border-radius: 14em/ 6em;
+}
+
+.rim.left { /*Rim on left side*/
+    left: 4%;
+}
+
+.rim.right { /*Rim on right side*/
+    right: 4%;
+}
+
+.Timer {     /*Timer bar*/
+    position: absolute;
+    top: 2%;
+    left: 30%;
+
+    height: 4%;
+    width: 40%;
+    border: solid 2px black;
+    background-color: cyan;
+}
+
+
+
+#BlackBar {
+    position: absolute;
+
+    height: 100%;
+    right: 0%;
+    background-color: black;
+}
+
+.Score {
+    position: absolute;
+    top: 20%;
+    left: 49%;
+
+    font-size: 3em;
+    font-weight: 600;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: coral;
+}
+
+
+.GameOver {
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    margin-left: auto;
+    top: 40%;
+    z-index: 3;
+    left: 40%;
+    font-size: 5em;
+}
+
+#quit {
+    position:absolute;
+    bottom: 2%;
+    left: 2%;
+    font-size: 2em;
+    color: coral;
+    background-color: darkred;
+    border-radius: 5px;
+}

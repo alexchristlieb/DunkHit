@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+}
+
+#box { /*Style of the box*/
+    display: block;
+    background-color: grey;
+    border: solid 2px black;
+    position: relative;
+    height: 80%;
+    width: 60%;
+
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+h2{
+    font-family: 'Lucida Console', monospace;
+    font-size: 40px;
+    color: coral;
+    font-weight: bold;
+    position: relative;
+    margin-left: 42%;
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+li{
+    font-size: 20px;
+    font-family:'Lucida Console', monospace;
+    color: rgb(109, 28, 150);
+    display:inline-block;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+#back{
+    font-size: 30px;
+    color: coral;
+    background-color: darkred;
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 20px;
+}
